@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Wikipedia" position="(242.0, 155.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owwikipedia.OWWikipedia" title="Wikipedia" version="" />
+		<node id="1" name="Word Cloud" position="(644.0, 138.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" title="Word Cloud" version="" />
+		<node id="2" name="Corpus Viewer" position="(369.0, 256.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" title="Corpus Viewer" version="" />
+		<node id="3" name="Preprocess Text" position="(413.0, 62.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" title="Preprocess Text" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Corpus" sink_node_id="2" source_channel="Corpus" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Corpus" sink_node_id="3" source_channel="Corpus" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Corpus" sink_node_id="1" source_channel="Corpus" source_node_id="3" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'articles_per_query': 10, 'controlAreaVisible': True, 'language': 'en', 'query_list': ['machine learning', 'Artificial Intelligence'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x07\xe9\x00\x00\x01%\x00\x00\t\x82\x00\x00\x02\xd8\x00\x00\x07\xe9\x00\x00\x01;\x00\x00\t\x82\x00\x00\x02\xd8\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80', 'text_includes': ['Title', 'Content', 'Summary', 'Url'], '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
+AkMyAdnQywACAAAAAAcMAAAA+gAACmAAAAMDAAAHDAAAARAAAApgAAADAwAAAAEAAAAAB4BxA1gO
+AAAAc2VsZWN0ZWRfd29yZHNxBGNidWlsdGlucwpzZXQKcQVdcQaFcQdScQhYCwAAAHdvcmRzX2Nv
+bG9ycQmIWAoAAAB3b3Jkc190aWx0cQpLAFgLAAAAX192ZXJzaW9uX19xC0sBdS4=
+</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAoAAABhdXRvY29tbWl0cQGIWBIAAABjb250cm9sQXJlYVZpc2libGVxAohYEwAAAHNh
+dmVkV2lkZ2V0R2VvbWV0cnlxA0MyAdnQywACAAAAAAcMAAAA1gAACmAAAAMnAAAHDAAAAOwAAApg
+AAADJwAAAAEAAAAAB4BxBFgLAAAAc2hvd190b2tlbnNxBYlYCwAAAF9fdmVyc2lvbl9fcQZLAVgQ
+AAAAY29udGV4dF9zZXR0aW5nc3EHXXEIY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0CnEJ
+KYFxCn1xCyhYBAAAAHRpbWVxDEdB15yfhpJAgVgGAAAAdmFsdWVzcQ19cQ4oWBAAAABkaXNwbGF5
+X2ZlYXR1cmVzcQ9dcRAoWAUAAABUaXRsZXERS2eGcRJYBwAAAENvbnRlbnRxE0tnhnEUWAcAAABT
+dW1tYXJ5cRVLZ4ZxFlgDAAAAVXJscRdLZ4ZxGFgHAAAAUGFnZSBJRHEZS2aGcRpYCwAAAFJldmlz
+aW9uIElEcRtLZoZxHFgFAAAAUXVlcnlxHUtlhnEeZUr9////hnEfWA8AAABkaXNwbGF5X2luZGlj
+ZXNxIF1xIShLAEsBSwJLA0sESwVLBmVYDQAAAHJlZ2V4cF9maWx0ZXJxIlgAAAAAcSNK/////4Zx
+JFgOAAAAc2VhcmNoX2luZGljZXNxJV1xJihLAEsBSwJLA0sESwVLBmVoBksBdVgKAAAAYXR0cmli
+dXRlc3EnKVgFAAAAbWV0YXNxKChoEUsDhnEpaBNLA4ZxKmgVSwOGcStoF0sDhnEsaBlLAoZxLWgb
+SwKGcS5oHV1xLyhYEAAAAG1hY2hpbmUgbGVhcm5pbmdxMFgXAAAAQXJ0aWZpY2lhbCBJbnRlbGxp
+Z2VuY2VxMWWGcTJ0cTNYCgAAAGNsYXNzX3ZhcnNxNCl1YmF1Lg==
+</properties>
+		<properties format="literal" node_id="3">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x076\x00\x00\x00\xe9\x00\x00\n6\x00\x00\x03\x15\x00\x00\x076\x00\x00\x00\xff\x00\x00\n6\x00\x00\x03\x15\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80', 'filters': {'checked': [0, 1, 2, 3, 4], 'enabled': True, 'keep_n': 100, 'max_df': 0.9, 'min_df': 0.1, 'pattern': '\\.|,|:|;|!|\\?|\\(|\\)|\\||\\+|\'|"|‘|’|“|”|\'|\\’|…|\\-|–|—|\\$|&amp;|\\*|&gt;|&lt;|\\/|\\[|\\]', 'recent_lexicon_files': ['(none)'], 'recent_sw_files': ['(none)'], 'stopwords_language': 'English', 'use_df': False, 'use_keep_n': False}, 'ngrams_range': {'enabled': False, 'ngrams_range': (1, 2)}, 'normalizer': {'enabled': False, 'method_index': 0, 'snowball_language': 'English', 'udpipe_language': 'English', 'udpipe_tokenizer': False}, 'pos_tagger': {'enabled': False, 'method_index': 0, 'stanford': {'recent_files': ['(none)'], 'recent_provider': ['(none)'], 'resource_path': ''}}, 'tokenizer': {'enabled': True, 'method_index': 0, 'pattern': '\\w+'}, 'transformers': {'checked': [0, 1, 2, 3], 'enabled': True}, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
